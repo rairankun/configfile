@@ -9,7 +9,7 @@ $ mv minttyrc .minttyrc
 ~~~
 
 ## Setting gtags
-- ** In the case of Cygwin, from + Devel, gcc, please advance install make.
+- In the case of Cygwin, from + Devel, gcc, please advance install make.
 ~~~{.bash}
 $ tar zxvf global-6.2.9.tar.gz
 $ cd global-6.2.9
@@ -19,7 +19,7 @@ $ make install
 ~~~
 
 ## Setting doxygen
-- ** If you have GIT installed, you should do the following to get the initial copy of the repository:
+- If you have GIT installed, you should do the following to get the initial copy of the repository:
 ~~~{.bash}
 $ git clone https://github.com/doxygen/doxygen.git
 $ cd doxygen
