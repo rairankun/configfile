@@ -1,0 +1,23 @@
+[user]
+	email =
+	name =
+[color]
+	ui = auto
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	st = status
+	ci = commit -a
+	di = diff
+
+	# Branch relation.
+	br = branch
+	ba = branch -a
+
+	# History relation.
+	hist = log --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%d %C(Red)[%an]\" --graph --date=short
+	ll = log --pretty=\"format:%ad %h (%an): %s\" --date=short
+	ls = log --name-status
+[push]
+	default = simple
